@@ -32,6 +32,7 @@ import de.thetaphi.forbiddenapis.gradle.CheckForbiddenApis
 
 apply plugin: 'opensearch.build'
 apply plugin: 'opensearch.publish'
+apply plugin: 'com.github.johnrengelman.shadow'
 
 targetCompatibility = JavaVersion.VERSION_1_8
 sourceCompatibility = JavaVersion.VERSION_1_8

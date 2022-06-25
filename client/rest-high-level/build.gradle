@@ -36,6 +36,7 @@ apply plugin: 'opensearch.build'
 apply plugin: 'opensearch.rest-test'
 apply plugin: 'opensearch.publish'
 apply plugin: 'opensearch.rest-resources'
+apply plugin: 'com.github.johnrengelman.shadow'
 
 group = 'org.opensearch.client'
 archivesBaseName = 'opensearch-rest-high-level-client'
